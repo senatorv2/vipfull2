@@ -1,0 +1,10 @@
+🔩List of bot guide:
+
+🔹Please choose a section to display!
+
+owner:Promote and dismiss administrators to send commands
+locks:Lock sends commands
+Support:Support channel link, id robot sends administrators
+Cancel. Cancel operation
+
+> To get to the FAQ section, simply send its Order !

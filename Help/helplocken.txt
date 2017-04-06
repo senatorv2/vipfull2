@@ -1,0 +1,154 @@
+🔃 The main lock guide:
+> Lock spam:
+Activation :
+Lock spam
+Deactivate:
+Unlock spam
+> Lock link:
+
+Activation :
+Lock links
+Deactivate:
+Unlock links
+️> Locks URL:
+
+Activation :
+Lock webpage
+Deactivate:
+Unlock webpage
+> Locks Tags:
+
+Activation :
+Lock tag
+Deactivate:
+Unlock tag
+️> Lock hashtag:
+
+Activation :
+Lock hashtag
+Deactivate:
+Unlock hashtag
+> Lock forward:
+
+Activation :
+Lock fwd
+Deactivate:
+Unlock fwd
+> Lock the arrival of the robot:
+
+Activation :
+Lock bots
+Deactivate:
+Unlock bots
+️> locked message:
+
+Activation :
+Lock edit
+Deactivate:
+Unlock edit
+️> Lock Model Markup:
+
+Activation :
+Lock markdown
+Deactivate:
+Unlock markdown
+️> Lock mentioned name:
+
+Activation :
+Lock mention
+Deactivate:
+Unlock mention
+️> locking pin message:
+
+Activation :
+Lock pin
+Deactivate:
+Unlock pin
+> Glass button lock:
+
+Activation :
+Lock inline
+Deactivate:
+Unlock inline
+> Lock Persian text:
+
+Activation :
+Lock farsi
+Deactivate:
+Unlock farsi
+> Lock English text:
+
+Activation :
+Lock english
+Deactivate:
+Unlock english
+️> Lock telegram service:
+
+Activation :
+Lock tgservice
+Deactivate:
+Unlock tgservice
+> Lock Flood:
+
+Activation :
+Lock flood
+Deactivate:
+Unlock flood
+> Flood Sensitivity:
+
+Setflood [2 - Up]
+
+️> spam sensitivity:
+
+Setspam [40 - Up]
+🔃 Locks the media guide:
+> Lock Full Text [chat]:
+Activation :
+Lock text
+Deactivate:
+Unlock text
+> Lock Photos:
+Activation :
+Lock photo
+Deactivate:
+Unlock photo
+> Lock movie:
+Activation :
+Lock video
+Deactivate:
+Unlock video
+> Lock Gyf:
+Activation :
+Lock gif
+Deactivate:
+Unlock gif
+> Lock Me:
+Activation :
+Lock music
+Deactivate:
+Unlock music
+> Lock Weiss:
+Activation :
+Lock voice
+Deactivate:
+Unlock voice
+> Locks file:
+Activation :
+Lock file
+Deactivate:
+Unlock file
+> Lock sticker:
+Activation :
+Lock sticker
+Deactivate:
+Unlock sticker
+> Lock Send contact:
+Activation :
+Lock contact
+Deactivate:
+Unlock contact
+️> Lock Location:
+Activation :
+Lock location
+Deactivate:
+Unlock location
