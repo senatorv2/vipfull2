@@ -1806,9 +1806,9 @@ function tdcli_update_callback(data)
         if is_momod(msg.sender_user_id_, msg.chat_id_) then
           if text:match("^[Ss][Ee][Nn][Aa][Tt][Oo][Rr]$") or text:match("^سناتور$") then
             if database:get('lang:gp:'..msg.chat_id_) then
-              send(msg.chat_id_, msg.id_, 1, 'A new <b>AntiSpam-Bot</b> Based on <code>senator</code>\n@Lv_t_m <i>[Developer]</i>\n@Senator_tea\n<i>[Channel]</i>\nSpecial thanks to :\n@Lv_t_m - tohid\n@sudo_Dr_slow - Ali\nBot Support :\nhttps://telegram.me/Lv_t_m\nhttps://telegram.me/senator_tea/', 1, 'md')
+              send(msg.chat_id_, msg.id_, 1, 'A new AntiSpam-Bot Based on senator\n@Lv_t_m [Developer]\n@Senator_tea\n[Channel]\nSpecial thanks to :\n@Lv_t_m - tohid\n@sudo_Dr_slow - Ali\nBot Support :\nhttps://telegram.me/Lv_t_m\nhttps://telegram.me/senator_tea/', 1, 'md')
             else
-              send(msg.chat_id_, msg.id_, 1, 'ربات ضدلینک جدید سناتور\n@Lv_t_m <i>[توسعه دهنده]</i>\n@Senator_tea\n<i>[کانال]</i>\nتشکر ویژه از :\n@Lv_t_m - tohid\n@sudo_Dr_slow - Ali\nBot پشتیبانی :\nhttps://telegram.me/Lv_t_m\nhttps://telegram.me/senator_tea/', 1, 'md')
+              send(msg.chat_id_, msg.id_, 1, 'ربات ضدلینک جدید سناتور\n@Lv_t_m [توسعه دهنده]\n@Senator_tea\n[کانال]\nتشکر ویژه از :\n@Lv_t_m - tohid\n@sudo_Dr_slow - Ali\nBot پشتیبانی :\nhttps://telegram.me/Lv_t_m\nhttps://telegram.me/senator_tea/', 1, 'md')
             end
           end
         end
@@ -5118,11 +5118,11 @@ function tdcli_update_callback(data)
             if database:get('bot:gifs:mute'..msg.chat_id_) then
               mute_gifs = '✅'
             else
-              mute_gifs = '#❎'
+              mute_gifs = '❎'
             end
             ------------
             if database:get('anti-flood:'..msg.chat_id_) then
-              mute_flood = '#✅'
+              mute_flood = '✅'
             else
               mute_flood = '❎'
             end
@@ -5166,9 +5166,9 @@ function tdcli_update_callback(data)
             end
             ------------
             if database:get('bot:cmds'..msg.chat_id_) then
-              mute_cmd = '#✅'
+              mute_cmd = '✅'
             else
-              mute_cmd = '#❎'
+              mute_cmd = '❎'
             end
             ------------
             if database:get('bot:voice:mute'..msg.chat_id_) then
@@ -5323,7 +5323,8 @@ function tdcli_update_callback(data)
             .."💈🚏🚏🚏🚏🚏🚏💈\n"	
             .."🏮 حالت سختگیرانه : "..strict.."\n"
             .."🏮 حالت قفل کلی گروه : "..mute_all.."\n"
-            .."🏮 حالت عدم جواب : "..mute_cmd.."\n\n"			
+            .."🏮 حالت عدم جواب : "..mute_cmd.."\n\n"
+	    .."💈🚏🚏Channel: @senator_tea🚏🚏💈\n			
             local TXTEN = "🔩Group Settings :\n\n"
             .."💈🚏🚏🚏🚏🚏🚏💈\n"
             .."💈locks :\n\n"
@@ -5361,6 +5362,7 @@ function tdcli_update_callback(data)
             .."🏮 Strict Mode : "..strict.."\n"
             .."🏮 Group lock All : "..mute_all.."\n"
             .."🏮 Case of no answer : "..mute_cmd.."\n\n"
+	    .."💈🚏🚏Channel: @senator_tea🚏🚏💈\n
             TXTEN = TXTEN:gsub("#فعال","Active")
             TXTEN = TXTEN:gsub("#غیرفعال","Inactive")
             TXTEN = TXTEN:gsub("حذف پیام","Deleting")
@@ -5424,7 +5426,7 @@ function tdcli_update_callback(data)
         end
         -----------------------------------------------------------------------------------------------
         if text:match("^[Ss]hare$") and is_sudo(msg) then
-          sendContact(msg.chat_id_, msg.id_, 0, 1, nil, 989380409177, 'tohid', 'id', 170146015)
+          sendContact(msg.chat_id_, msg.id_, 0, 1, nil, 989380409177, 'sudo', 'senator', 170146015)
         end
         -----------------------------------------------------------------------------------------------
         if text:match("^[Rr]ename (.*)$") or text:match("^تنظیم نام گروه (.*)$") and is_owner(msg.sender_user_id_, msg.chat_id_) then
@@ -5801,9 +5803,9 @@ function tdcli_update_callback(data)
               lastname = ''
             end
             if database:get('lang:gp:'..msg.chat_id_) then
-              send(msg.chat_id_, msg.id_, 1, '> Your Name : '..result.first_name_..' '..lastname..'\n> Your Username : '..username..'\n> Your ID : '..result.id_..'\n> Your Rank : '..ten, 1, 'html')
+              send(msg.chat_id_, msg.id_, 1, '🏮 Your Name : '..result.first_name_..' '..lastname..'\n🏮Your Username : '..username..'\n🏮Your ID : '..result.id_..'\n🏮Your Rank : '..ten, 1, 'html')
             else
-              send(msg.chat_id_, msg.id_, 1, '> نام شما : '..result.first_name_..' '..lastname..'\n> یوزرنیم شما : '..username..'\n> شناسه شما : '..result.id_..'\n> مقام شما : '..tfa, 1, 'html')
+              send(msg.chat_id_, msg.id_, 1, '🏮 نام شما : '..result.first_name_..' '..lastname..'\n🏮یوزرنیم شما : '..username..'\n🏮شناسه شما : '..result.id_..'\n🏮مقام شما : '..tfa, 1, 'html')
             end
           end
           getUser(msg.sender_user_id_,get_me)
@@ -5839,9 +5841,9 @@ function tdcli_update_callback(data)
               end
             end
             if database:get('lang:gp:'..msg.chat_id_) then
-              send(msg.chat_id_, msg.id_, 1, '> Your Name : '..result.first_name_..'\n> Your Username : '..username..'\n> Your ID : '..result.id_..'\n> Your Rank : '..ten, 1, 'html')
+              send(msg.chat_id_, msg.id_, 1, '🏮Your Name : '..result.first_name_..'\n🏮Your Username : '..username..'\n🏮Your ID : '..result.id_..'\n🏮Your Rank : '..ten, 1, 'html')
             else
-              send(msg.chat_id_, msg.id_, 1, '> نام شما : '..result.first_name_..'\n> یوزرنیم شما : '..username..'\n> شناسه شما : '..result.id_..'\n> مقام شما : '..tfa, 1, 'html')
+              send(msg.chat_id_, msg.id_, 1, '🏮نام شما : '..result.first_name_..'\n🏮یوزرنیم شما : '..username..'\n🏮شناسه شما : '..result.id_..'\n🏮مقام شما : '..tfa, 1, 'html')
             end
           end
           getUser(msg.sender_user_id_,get_me)
