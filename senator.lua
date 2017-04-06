@@ -2367,7 +2367,7 @@ function tdcli_update_callback(data)
                 if database:get('lang:gp:'..msg.chat_id_) then
                   send(msg.chat_id_, msg.id_, 1, '🚏 User : '..result.sender_user_id_..' has been muted🔕 !', 1, 'md')
                 else
-                  send(msg.chat_id_, msg.id_, 1, '🚏 کاربر : '..result.sender_user_id_..' !بی صدا گردید🔕', 1!, 'md')
+                  send(msg.chat_id_, msg.id_, 1, '🚏 کاربر : '..result.sender_user_id_..' !بی صدا گردید🔕', 1, 'md')
                 end
               end
             end
