@@ -5324,7 +5324,7 @@ function tdcli_update_callback(data)
             .."🏮 حالت سختگیرانه : "..strict.."\n"
             .."🏮 حالت قفل کلی گروه : "..mute_all.."\n"
             .."🏮 حالت عدم جواب : "..mute_cmd.."\n\n"
-	    .."💈🚏🚏Channel: @senator_tea🚏🚏💈\n"			
+	    .."💈🚏🚏Channel: senator_tea🚏🚏💈\n"			
             local TXTEN = "🔩Group Settings :\n\n"
             .."💈🚏🚏🚏🚏🚏🚏💈\n"
             .."💈locks :\n\n"
@@ -5362,7 +5362,7 @@ function tdcli_update_callback(data)
             .."🏮 Strict Mode : "..strict.."\n"
             .."🏮 Group lock All : "..mute_all.."\n"
             .."🏮 Case of no answer : "..mute_cmd.."\n\n"
-	    .."💈🚏🚏Channel: @senator_tea🚏🚏💈\n"
+	    .."💈🚏🚏Channel: senator_tea🚏🚏💈\n"
             TXTEN = TXTEN:gsub("#فعال","Active")
             TXTEN = TXTEN:gsub("#غیرفعال","Inactive")
             TXTEN = TXTEN:gsub("حذف پیام","Deleting")
