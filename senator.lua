@@ -3636,7 +3636,7 @@ function tdcli_update_callback(data)
         local text = msg.content_.text_:gsub('تنظیم فلود','Setflood')
         if is_momod(msg.sender_user_id_, msg.chat_id_) then
           if text:match("^[Ss]etflood (%d+)$") then
-            local floodmax = {string.match(text, "🚏 ([Ss]etflood) (%d+)$")}
+            local floodmax = {string.match(text, "^([Ss]etflood) (%d+)$")}
             if tonumber(floodmax[2]) < 2 then
               if database:get('lang:gp:'..msg.chat_id_) then
                 send(msg.chat_id_, msg.id_, 1, '🚏 Select a number greater than 2 !', 1, 'md')
