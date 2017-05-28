@@ -126,7 +126,7 @@ echo '>Server Uptime : '"$uptime"
 anticrash() {
 while true ; do
     tmux kill-session -t $THIS_DIR
-    tmux new-session -s $THIS_DIR "./telegram-cli -s tgGuard.lua"
+    tmux new-session -s $THIS_DIR "./telegram-cli -s senator.lua"
     tmux detach -s $THIS_DIR
 done
 }
@@ -152,7 +152,7 @@ if [ "$VAR" = 1 ]; then
   install
   menu
 elif [ "$VAR" = 2 ]; then
-	tmux new-session -s $THIS_DIR "./telegram-cli -s tgGuard.lua"
+	tmux new-session -s $THIS_DIR "./telegram-cli -s senator.lua"
 elif [ "$VAR" = 3 ]; then
  	log
 	anticrash
@@ -170,7 +170,7 @@ elif [ "$VAR" = 6 ]; then
 	inf
 	menu
 elif [ "$VAR" = 7 ]; then
-  cd $home && rm -rf .telegram-cli && rm -rf tgGuard
+  cd $home && rm -rf .telegram-cli && rm -rf vipfull
   menu
 elif [ "$VAR" = 0 ]; then
 	clear
