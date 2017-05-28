@@ -161,7 +161,7 @@ elif [ "$VAR" = 6 ]; then
 	inf
 	menu
 elif [ "$VAR" = 7 ]; then
-  cd $home && rm -rf .telegram-cli && rm -rf newbot
+  cd $home && rm -rf .telegram-cli && rm -rf vipfull
   menu
 elif [ "$VAR" = 0 ]; then
 	clear
